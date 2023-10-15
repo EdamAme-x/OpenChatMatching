@@ -4,6 +4,6 @@ LINEのオープンチャットで 「見つけたい」と「見つけてほし
 
 本家OpenChatに導入されることが目標。
 
-![chaart](/assets/openchatmatching.png)
+![chart](/assets/OpenChatMatching.png)
 
 by Canva Pro
