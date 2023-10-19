@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Head } from "@/components/Head";
 import { Layout } from "@/components/Layouts/Layout";
 import { marked } from "marked";
+import { Subscribe } from "@/components/Subscribe/index";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,7 +43,9 @@ export default function Home() {
               className="w-[10%] mx-auto mt-[-15px] shadow-lg rounded-full p-1"
             />
           </a>
-          <div id="contain"></div>
+          <div id="contain">
+            <Subscribe />
+          </div>
         </div>
       </Layout>
     </div>
