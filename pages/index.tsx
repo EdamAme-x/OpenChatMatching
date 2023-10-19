@@ -10,7 +10,9 @@ export default function Home() {
     <div className={inter.className}>
       <Head />
       <Layout>
-        <div className="flex flex-col font-mono"></div>
+        <div className="flex flex-col font-mono">
+          a
+        </div>
       </Layout>
     </div>
   );
